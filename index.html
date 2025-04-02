@@ -1,42 +1,167 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio - Ton Nom</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - Eray BUTEV</title>
+  <!-- Import de la police Lato depuis Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+  <style>
+    /* Styles généraux */
+    body {
+      font-family: 'Lato', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f9;
+      color: #333;
+      line-height: 1.6;
+    }
+    /* En-tête */
+    header {
+      background: #0078d7;
+      color: #fff;
+      padding: 1.5rem 0;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.8rem;
+      font-weight: 700;
+    }
+    header p {
+      margin: 0.5rem 0 0;
+      font-size: 1.2rem;
+      font-weight: 300;
+    }
+    /* Navigation */
+    nav {
+      background: #005a9e;
+      padding: 0.8rem 0;
+      text-align: center;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 1rem;
+      font-size: 1.1rem;
+      font-weight: 400;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    /* Sections */
+    section {
+      padding: 2rem;
+      margin: 1rem auto;
+      width: 90%;
+      max-width: 1100px;
+      background: #fff;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      border-radius: 5px;
+    }
+    section h2 {
+      color: #0078d7;
+      border-bottom: 2px solid #0078d7;
+      padding-bottom: 0.5rem;
+      margin-bottom: 1rem;
+      font-weight: 700;
+    }
+    /* Listes */
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    ul li {
+      background: #e7f3ff;
+      margin: 0.5rem 0;
+      padding: 0.8rem;
+      border-left: 5px solid #0078d7;
+      border-radius: 3px;
+    }
+    /* Liens dans le contenu */
+    a {
+      color: #0078d7;
+      text-decoration: none;
+      font-weight: 700;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    /* Pied de page */
+    footer {
+      text-align: center;
+      padding: 1rem 0;
+      background: #0078d7;
+      color: #fff;
+      margin-top: 2rem;
+      font-size: 0.9rem;
+    }
+    /* Responsive */
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2rem;
+      }
+      header p {
+        font-size: 1rem;
+      }
+      nav a {
+        font-size: 1rem;
+        margin: 0 0.5rem;
+      }
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <h1>Ton Nom</h1>
-        <p>Admin Systèmes & Réseaux | Cybersécurité</p>
-    </header>
-    <section id="about">
-        <h2>À propos</h2>
-        <p>Je suis passionné par les systèmes, les réseaux et la cybersécurité. Actuellement en formation, je cherche une alternance pour développer mes compétences.</p>
-    </section>
-    <section id="skills">
-        <h2>Compétences</h2>
-        <ul>
-            <li>Administration Windows & Linux</li>
-            <li>Réseaux (CCNA, VLANs, Firewall)</li>
-            <li>Cybersécurité (Pentest, Sécurisation SI)</li>
-            <li>Cloud (Azure, AWS)</li>
-        </ul>
-    </section>
-    <section id="projects">
-        <h2>Projets</h2>
-        <ul>
-            <li><strong>Montage d'un serveur Linux sécurisé</strong> - Installation et sécurisation avec fail2ban.</li>
-            <li><strong>Réseau VLAN avec Cisco Packet Tracer</strong> - Simulation et configuration.</li>
-            <li><strong>Test d’intrusion avec Kali Linux</strong> - Exercices TryHackMe.</li>
-        </ul>
-    </section>
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: <a href="mailto:tonmail@example.com">tonmail@example.com</a></p>
-        <p>GitHub: <a href="https://github.com/ton-github">github.com/ton-github</a></p>
-        <p>LinkedIn: <a href="https://linkedin.com/in/ton-nom">linkedin.com/in/ton-nom</a></p>
-    </section>
+  <header>
+    <h1>Eray BUTEV</h1>
+    <p>Futur Alternant Systèmes & Réseaux</p>
+  </header>
+  <nav>
+    <a href="#about">À propos</a>
+    <a href="#skills">Compétences</a>
+    <a href="#projects">Projets</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <section id="about">
+    <h2>À propos</h2>
+    <p>Passionné par les systèmes, les réseaux et la cybersécurité, je suis actuellement admis à l'école Iris MediaSchool de Strasbourg et à la recherche d'une alternance pour la rentrée de septembre 2025 afin de développer mes compétences et contribuer à des projets innovants.</p>
+  </section>
+  <section id="skills">
+    <h2>Compétences</h2>
+    <ul>
+      <li>HTML, Python, Virtualisation, Office 365</li>
+      <li>Montage et Configuration de matériel informatique</li>
+      <li>Gestion et hébergement d'un serveur</li>
+    </ul>
+  </section>
+  <section id="projects">
+    <h2>Projets</h2>
+    <ul>
+      <li>
+        <strong>Développement et personnalisation de site web</strong> - Développement d'une page web en HTML pour de l'auto-formation et personnalisation d'un site d'e-commerce Shopify.
+      </li>
+      <li>
+        <strong>Virtualisation</strong> - Virtualisation via Oracle VirtualBox de systèmes (Linux, Windows XP/7/8) pour de l'auto-formation.
+      </li>
+      <li>
+        <strong>Création de serveur</strong> - Création et gestion d'un serveur Minecraft à des fins personnelles.
+      </li>
+      <li>
+        <strong>Développement de jeux vidéo</strong> - Développement d'un jeu en Python lors d'une journée d'immersion à l'école d'ingénieurs du CESI.
+      </li>
+      <li>
+        <strong>Certification en cours</strong> - Préparer votre carrière dans l'administration système par Microsoft et LinkedIn.
+      </li>
+    </ul>
+  </section>
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email : <a href="mailto:buteveray@gmail.com">buteveray@gmail.com</a></p>
+    <p>GitHub : <a href="https://heldrayn.github.io/Eray.github/" target="_blank">https://heldrayn.github.io/Eray.github/</a></p>
+    <p>LinkedIn : <a href="https://linkedin.com/in/eray-butev" target="_blank">linkedin.com/in/eray-butev</a></p>
+  </section>
+  <footer>
+    <p>&copy; 2025 Eray BUTEV. Tous droits réservés.</p>
+  </footer>
 </body>
 </html>
