@@ -3,101 +3,136 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio - Ton Nom</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Portfolio - [Eray BUTEV]</title>
+    <style>
+        /* Styles généraux */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+            line-height: 1.6;
+        }
+        /* En-tête */
+        header {
+            background: #0078d7;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        header p {
+            margin: 0;
+            font-size: 1.2rem;
+        }
+        /* Navigation */
+        nav {
+            background: #005a9e;
+            padding: 0.5rem 0;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-size: 1.1rem;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        /* Sections */
+        section {
+            padding: 2rem;
+            margin: 1rem auto;
+            width: 90%;
+            max-width: 1100px;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 5px;
+        }
+        section h2 {
+            color: #0078d7;
+            border-bottom: 2px solid #0078d7;
+            padding-bottom: 0.5rem;
+        }
+        /* Liste des compétences et projets */
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        ul li {
+            background: #e7f3ff;
+            margin: 0.5rem 0;
+            padding: 0.5rem;
+            border-left: 5px solid #0078d7;
+        }
+        /* Pied de page */
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background: #0078d7;
+            color: #fff;
+            margin-top: 2rem;
+        }
+        /* Responsive */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2rem;
+            }
+            header p {
+                font-size: 1rem;
+            }
+            nav a {
+                font-size: 1rem;
+                margin: 0 0.5rem;
+            }
+        }
+    </style>
 </head>
 <body>
     <header>
-        <h1>Ton Nom</h1>
-        <p>Admin Systèmes & Réseaux | Cybersécurité</p>
+        <h1>[Eray BUTEV]</h1>
+        <p>Futur Alternant Systèmes & Réseaux</p>
     </header>
+    <nav>
+        <a href="#about">À propos</a>
+        <a href="#skills">Compétences</a>
+        <a href="#projects">Projets</a>
+        <a href="#contact">Contact</a>
+    </nav>
     <section id="about">
         <h2>À propos</h2>
-        <p>Je suis passionné par les systèmes, les réseaux et la cybersécurité. Actuellement en formation, je cherche une alternance pour développer mes compétences.</p>
+        <p>Passionné par les systèmes, les réseaux et la cybersécurité, je suis actuellement admis à l'école Iris MediaSchool de Strasbourg et à la recherche 
+            d'une alternance pour la rentrée de septembre 2025 pour développer mes compétences et contribuer à des projets innovants.</p>
     </section>
     <section id="skills">
         <h2>Compétences</h2>
         <ul>
-            <li>Administration Windows & Linux</li>
-            <li>Réseaux (CCNA, VLANs, Firewall)</li>
-            <li>Cybersécurité (Pentest, Sécurisation SI)</li>
-            <li>Cloud (Azure, AWS)</li>
+            <li>Notion Administration Windows</li>
+            <li>Notion en HTML et Python</li>
+            <li>Virtualisation Oracle VirtualBox (Linux, Windows XP, 7, 8)</li>
+            <li>Création et gestion d'un serveur de jeu Minecraft</li>
         </ul>
     </section>
     <section id="projects">
         <h2>Projets</h2>
         <ul>
-            <li><strong>Montage d'un serveur Linux sécurisé</strong> - Installation et sécurisation avec fail2ban.</li>
-            <li><strong>Réseau VLAN avec Cisco Packet Tracer</strong> - Simulation et configuration.</li>
-            <li><strong>Test d’intrusion avec Kali Linux</strong> - Exercices TryHackMe.</li>
+            <li><strong>Script de surveillance réseau</strong> - En cours</li>
+            <li><strong>Mini Pentest</strong> - En cours</li>
         </ul>
     </section>
     <section id="contact">
         <h2>Contact</h2>
-        <p>Email: <a href="mailto:tonmail@example.com">tonmail@example.com</a></p>
-        <p>GitHub: <a href="https://github.com/ton-github">github.com/ton-github</a></p>
-        <p>LinkedIn: <a href="https://linkedin.com/in/ton-nom">linkedin.com/in/ton-nom</a></p>
+        <p>Email : <a href="mailto:buteveray@gmail.com">buteveray@gmail.com</a></p>
+        <p>GitHub : <a href="https://heldrayn.github.io/Eray.github" target="_blank">https://heldrayn.github.io/Eray.github/</a></p>
+        <p>LinkedIn : <a href="https://linkedin.com/in/eray-butev" target="_blank">linkedin.com/in/eray-butev</a></p>
     </section>
+    <footer>
+        <p>&copy; 2025 [Eray BUTEV]. Tous droits réservés.</p>
+    </footer>
 </body>
 </html>
-
-<style>
-    body {
-        font-family: Arial, sans-serif;
-        background-color: #121212;
-        color: #ffffff;
-        text-align: center;
-        margin: 0;
-        padding: 0;
-    }
-
-    header {
-        background: #1e1e1e;
-        padding: 20px;
-        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
-    }
-
-    h1 {
-        margin: 0;
-        font-size: 2.5em;
-        color: #00adb5;
-    }
-
-    p {
-        font-size: 1.2em;
-    }
-
-    section {
-        margin: 40px auto;
-        padding: 20px;
-        width: 80%;
-        max-width: 800px;
-        background: #1e1e1e;
-        border-radius: 10px;
-        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
-    }
-
-    h2 {
-        color: #00adb5;
-    }
-
-    ul {
-        list-style-type: none;
-        padding: 0;
-    }
-
-    li {
-        padding: 10px;
-        border-bottom: 1px solid #333;
-    }
-
-    a {
-        color: #00adb5;
-        text-decoration: none;
-        font-weight: bold;
-    }
-
-    a:hover {
-        text-decoration: underline;
-    }
-</style>
